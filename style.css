@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* navbar-section */
+nav ul li a:hover{
+
+    color : blue;
+    text-decoration: underline;
+}
+
+/* home-section */
+
+.home-prnt {
+    height: 90vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.89);
+    position: relative;
+}
+
+.home-child {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 10vw;
+}
+
+.home-child h1 {
+    color: white;
+    font-size: 5vmax;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+    animation-delay: .7s;
+}
+
+.home-child h2 {
+
+    font-size: 4vmax;
+    color: white;
+    opacity: 0;
+    animation: slideBottom .5s ease forwards;
+    animation-delay: .7s;
+}
+
+.home-child button a{
+    text-decoration: none;
+    color: white;
+    font-size: auto;
+}
+
+
+
+#there {
+
+    color: red;
+
+}
+
+.home-child p span {
+
+    color: green;
+    font-size: 2vmax;
+
+}
+
+#Yadav {
+
+    color: yellow;
+}
+.home-child button{
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* about-section  */
+.about {
+
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    background-color: paleturquoise;
+    ;
+}
+
+
+.about-section {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#manjit-img {
+    height: 40vh;
+}
+
+.about-section {
+
+    background-color: paleturquoise;
+    opacity: 0;
+    animation: slideLeft .5s ease forwards;
+    animation-delay: .7s;
+
+}
+
+#user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#user i {
+
+    font-size: 3vmax;
+    padding-right: 10px;
+    padding-top: 5px
+}
+
+/* education-section  */
+
+.education {
+
+    width: 100vw;
+    height: 190vh;
+    text-align: center;
+    background-color: rgba(152, 251, 152, 0.718);
+    padding-top: 5px;
+
+}
+
+.education-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.collage img {
+
+    height: 27vh;
+
+}
+
+.collage h2 {
+    color: blue;
+
+}
+
+#duration {
+    color: green;
+}
+
+#cap{
+    font-size: 3vmax;
+}
+
+/* skills-section  */
+
+.skills {
+
+    height: 80vh;
+    width: 100vw;
+    background-color: rgba(137, 43, 226, 0.268);
+
+
+}
+
+.skills h1 {
+    text-align: center;
+}
+
+.skills-section {
+    background-color: rgba(137, 43, 226, 0.268);
+    height: 80vh;
+    width: 80vw;
+    margin: 20px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-section h2 {
+    padding-left: 45vw;
+}
+
+hr {
+    padding-top:2px;
+    width: 20vw;
+}
+
+/* .project-section  */
+
+.project {
+    height: 110vh;
+    width: 100vw;
+    background-color: rgba(172, 255, 47, 0.362);
+}
+
+.project h1 {
+    text-align: center;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+
+.pro {
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: rgba(165, 42, 42, 0.364);
+}
+
+.pro h3 {
+    text-align: center;
+}
+
+.pro button {
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.pro button a {
+    text-decoration: none;
+    color: white;
+    font-size: auto;
+}
+/* contact-section  */
+
+
+#cntct {
+
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contact {
+
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 68, 0, 0.159);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+
+.symbol {
+    position: relative;
+    height:32vmax;
+    width: 30vmax;
+    /* border: 2px solid black; */
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+
+}
+
+.input {
+    position: relative;
+    height: 32vmax;
+    width: 30vmax;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
+.symbol img {
+    height: 25vmax;
+    width: 25vmax;
+    text-align: center;
+}
+
+.input input {
+    padding: 5px;
+    width: 28vmax;
+    border-radius: 5px;
+    background-color: rgba(255, 68, 0, 0.159);
+    margin-top: 10px;
+    /* margin-bottom: 30px; */
+
+}
+
+#massage {
+    height: 90px;
+    width: 28vmax;
+}
+
+.input button {
+
+    height: 4vmax;
+    width: 8vmax;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    margin-top: 2px;
+}
+
+.input button:hover {
+    background-color: green;
+}
+
+
+/* footer-section */
+
+.footer {
+    height: 65vh;
+    width: 100vw;
+    background-color: blue;
+
+}
+
+.footer-section {
+
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: blue; 
+
+
+}
+
+.f-item {
+
+    height: 30vmax;
+    width: 20vmax;
+    margin-right: 3vmax;
+    margin-top: 5vmax;
+}
+
+.footer hr {
+    width: 100vw;
+}
+
+.f-item hr {
+    width: 20vw;
+}
+
+.f-item a {
+
+    text-decoration: none;
+    color: black;
+}
+
+#manjit-portfolio {
+
+    margin-left: 0vw;
+}
+
+@media (max-width : 600px)
+{
+    .footer-section
+    {
+        height: 100vh;
+    }
+    
+}
+
+/* keyframe animation */
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideBottom {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
